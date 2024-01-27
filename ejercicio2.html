@@ -25,7 +25,7 @@
         while (arr) {
           arr = false;
           for (let j = 0; j < cadena.length - 1; j++) {
-            if (cadena[j] > cadena[j + 1]) {
+            if (cadena[j] < cadena[j + 1]) {
               let arri = cadena[j]
               cadena[j] = cadena[j + 1]
               cadena[j + 1] = arri
